@@ -3,6 +3,7 @@
     "name": "ona",
     "slug": "ona",
     "version": "1.0.0",
+    "scheme": "ona",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "light",
@@ -25,7 +26,12 @@
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
-
