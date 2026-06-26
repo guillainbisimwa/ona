@@ -1,4 +1,5 @@
-export default function IndexScreen() {
-  return null;
-}
+import { Redirect } from 'expo-router';
 
+export default function IndexScreen() {
+  return <Redirect href="/welcome" />;
+}
